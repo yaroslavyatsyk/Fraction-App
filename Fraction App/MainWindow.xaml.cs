@@ -68,6 +68,10 @@ namespace Fraction_App
                         break;
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error, incorrect input(s)","Error",MessageBoxButton.OK,MessageBoxImage.Error);
+            }
         }
     }
 }
