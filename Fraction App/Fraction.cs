@@ -157,6 +157,8 @@ namespace Fraction_App
         
         public static bool operator == (Fraction fraction1, Fraction fraction2)
         {
+
+
             if (fraction1.Numerator == fraction2.Numerator && fraction1.Denominator == fraction2.Denominator)
             {
                 return true;
@@ -216,6 +218,12 @@ namespace Fraction_App
             }
 
             throw new NotImplementedException();
+        }
+
+        public override int GetHashCode()
+        {
+            
+            return base.GetHashCode();
         }
     }
 }

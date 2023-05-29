@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="Fraction App" Height="450" Width="800">
     <Grid>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="280,169,0,0" VerticalAlignment="Top" Width="120" IsEditable="False">
+            <ComboBoxItem Content="+"/>
+            <ComboBoxItem Content="-"/>
+            <ComboBoxItem Content="*"/>
+            <ComboBoxItem Content="/"/>
+
+        </ComboBox>
+        <TextBox x:Name="NumeratorFirst" HorizontalAlignment="Left" Margin="65,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DenominatorFirst" HorizontalAlignment="Left" Margin="65,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NumeratorSecond" HorizontalAlignment="Left" Margin="455,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DenominatorSecond" HorizontalAlignment="Left" Margin="455,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Calculate" HorizontalAlignment="Left" Margin="340,379,0,0" VerticalAlignment="Top" Click="button_Click"/>
+
 
     </Grid>
 </Window>
