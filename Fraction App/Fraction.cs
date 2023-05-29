@@ -29,16 +29,9 @@ namespace Fraction_App
         public int Numerator { get { return numerator; } }
         public int Denominator { get { return denominator; } }
 
-       public object GetIntegerOrDecimal()
+       public double GetIntegerOrDecimal()
         {
-            if (numerator % denominator == 0)
-            {
-                return (int) numerator / denominator;
-            }
-            else
-            {
-                return numerator / denominator;
-            }
+            return  Math.Round((double) numerator / denominator,2);
         }
 
         public static Fraction operator + (Fraction fraction1, Fraction fraction2)

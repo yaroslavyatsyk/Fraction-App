@@ -43,25 +43,37 @@ namespace Fraction_App
                         Fraction fraction1 = new Fraction(numerator1, denominator1);
                         Fraction fraction2 = new Fraction(numerator2, denominator2);
                         Fraction result = fraction1 + fraction2;
-                        Result.Text = result.ToString();
+
+                        ResultWindow resultWindow = new ResultWindow(fraction1, fraction2, result, operation);
+                        resultWindow.Show();
+                        
                         break;
                     case "-":
                         Fraction fraction3 = new Fraction(numerator1, denominator1);
                         Fraction fraction4 = new Fraction(numerator2, denominator2);
                         Fraction result2 = fraction3 - fraction4;
-                        Result.Text = result2.ToString();
+
+                        ResultWindow resultWindow2 = new ResultWindow(fraction3, fraction4, result2, operation);
+                        resultWindow2.Show();
+                      
                         break;
                     case "*":
                         Fraction fraction5 = new Fraction(numerator1, denominator1);
                         Fraction fraction6 = new Fraction(numerator2, denominator2);
                         Fraction result3 = fraction5 * fraction6;
-                        Result.Text = result3.ToString();
+
+                        ResultWindow resultWindow3 = new ResultWindow(fraction5, fraction6, result3, operation);
+                        resultWindow3.Show();
+                        
                         break;
                     case "/":
                         Fraction fraction7 = new Fraction(numerator1, denominator1);
                         Fraction fraction8 = new Fraction(numerator2, denominator2);
                         Fraction result4 = fraction7 / fraction8;
-                        Result.Text = result4.ToString();
+
+                        ResultWindow resultWindow4 = new ResultWindow(fraction7, fraction8, result4, operation);
+                        resultWindow4.Show();
+                       
                         break;
                     default:
                         MessageBox.Show("Please select an operation");

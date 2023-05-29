@@ -1,0 +1,23 @@
+﻿<Window x:Class="Fraction_App.ResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fraction_App"
+        mc:Ignorable="d"
+        Title="ResultWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Numerator1" HorizontalAlignment="Left" Margin="40,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="Denominator1" HorizontalAlignment="Left" Margin="40,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+
+        <TextBox x:Name="Numerator2" HorizontalAlignment="Left" Margin="315,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="Denominator2" HorizontalAlignment="Left" Margin="315,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Label x:Name="OperationLabel" Content="" HorizontalAlignment="Left" Margin="202,138,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label" Content="=" HorizontalAlignment="Left" Margin="485,132,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="ResultNumerator" HorizontalAlignment="Left" Margin="560,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="ResultDenominator" HorizontalAlignment="Left" Margin="560,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Label x:Name="label1" Content="Decimal Form" HorizontalAlignment="Left" Margin="496,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.395,1.541"/>
+        <TextBox x:Name="decimalBox" HorizontalAlignment="Left" Margin="601,271,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
