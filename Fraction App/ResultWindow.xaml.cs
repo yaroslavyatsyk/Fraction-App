@@ -31,7 +31,16 @@ namespace Fraction_App
             this.result = result;
             this.operation = op;
 
+
+            if(operation == "/")
+            {
+                fraction2 = Fraction.InverseFraction(fraction2);
+
+                operation = "*";
+            }
             OperationLabel.Content = operation;
+
+
 
             Numerator1.Text = fraction1.Numerator.ToString();
             Denominator1.Text = fraction1.Denominator.ToString();
