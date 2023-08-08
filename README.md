@@ -4,7 +4,7 @@ Welcome to the fraction app, the purpose of the app to provide information about
 
 The app includes following operations
 
-* Addiction
+* Addition
 * Multiplication
 * Substraction
 * Division
