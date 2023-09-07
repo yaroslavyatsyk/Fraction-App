@@ -6,7 +6,7 @@ The app includes following operations
 
 * Addition
 * Multiplication
-* Substraction
+* Subtraction
 * Division
 
 Here are the example of the app's performance
@@ -15,7 +15,7 @@ Here are the example of the app's performance
 ![image](https://github.com/yaroslavyatsyk/Fraction-App/assets/31794068/734b7386-1ae0-4b75-af68-fc7f7ee5c289)
 ![image](https://github.com/yaroslavyatsyk/Fraction-App/assets/31794068/13624184-aa01-47ce-85cb-515b5d37e0d1)
 
-2. Substraction
+2. Subtraction
 ![image](https://github.com/yaroslavyatsyk/Fraction-App/assets/31794068/a824430d-a679-4b05-ae39-2d741ffceeb5)
 ![image](https://github.com/yaroslavyatsyk/Fraction-App/assets/31794068/d6911e50-1027-47c8-a122-3e6b9d40126b)
 3. Multiplication
