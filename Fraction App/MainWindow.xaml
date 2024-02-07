@@ -10,7 +10,7 @@
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="280,169,0,0" VerticalAlignment="Top" Width="120" IsEditable="False">
             <ComboBoxItem Content="+"/>
             <ComboBoxItem Content="-"/>
-            <ComboBoxItem Content="*"/>
+            <ComboBoxItem Content="x"/>
             <ComboBoxItem Content="/"/>
 
         </ComboBox>
