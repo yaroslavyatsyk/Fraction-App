@@ -57,7 +57,7 @@ namespace Fraction_App
                         resultWindow2.Show();
                       
                         break;
-                    case "*":
+                    case "x":
                         Fraction fraction5 = new Fraction(numerator1, denominator1);
                         Fraction fraction6 = new Fraction(numerator2, denominator2);
                         Fraction result3 = fraction5 * fraction6;
